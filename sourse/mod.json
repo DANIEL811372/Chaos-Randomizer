@@ -1,0 +1,35 @@
+{
+    "geode": "5.3.0",
+    "gd": {
+        "win": "2.2081",
+        "android": "2.2081",
+        "mac": "2.2081",
+        "ios": "2.2081"
+    },
+    "id": "danik.random",
+    "name": "Chaos Randomizer",
+    "version": "v1.1.0",
+    "developer": "Danik",
+    "description": "Spawns a random object within a custom ID range. Button located near the Delete tool.",
+    "dependencies": {
+        "geode.node-ids": ">=v1.20.0"
+    },
+    "settings": {
+        "min-id": {
+            "name": "Minimum ID",
+            "description": "Минимальный ID объекта (например, 1).",
+            "type": "int",
+            "default": 1,
+            "min": 1,
+            "max": 3500
+        },
+        "max-id": {
+            "name": "Maximum ID",
+            "description": "Максимальный ID объекта (например, 2000).",
+            "type": "int",
+            "default": 2000,
+            "min": 1,
+            "max": 3500
+        }
+    }
+}
